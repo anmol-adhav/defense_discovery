@@ -1,0 +1,22 @@
+name: defense_discovery
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - biopython>=1.74
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - hmmer=3.4
+  - mmseqs2
+  - pyrodigal
+  - ncbi-datasets-cli
+  - entrez-direct
+  - pip
+  - pip:
+    - padloc
+    - defense-finder
+    - phispy>=5.0.6
